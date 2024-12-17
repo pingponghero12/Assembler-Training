@@ -1,6 +1,6 @@
 To assemble and run:
 ```bash
-nasm -f elf programs/ex3.asm -o build/ex3.o
-ld -m elf_i386 build/ex3.o -o build/ex3
+nasm -f elf programs/ex4.asm -o build/ex4.o
+ld -m elf_i386 build/ex4.o -o build/ex4
 ./build/ex3
 ```
